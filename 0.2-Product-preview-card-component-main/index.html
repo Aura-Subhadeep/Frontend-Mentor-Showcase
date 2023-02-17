@@ -10,21 +10,25 @@
 
 
   <style>
+
     body{
-      background-color: hsl(32, 42%, 44%);
+      background-color: hsl(30, 38%, 92%);
       margin: 0;
       padding: 0;
-    }
-
-    .grid{
-      display: grid;
-      background-color: aliceblue;
     }
 
     img{
       max-width: 100%;
       height: auto;
     }
+
+
+
+    .grid{
+      display: grid;
+      background-color: hsl(0, 0%, 100%);
+    }
+
 
   </style>
 </head>
@@ -36,19 +40,25 @@
           <img src="images/image-product-mobile.jpg" id="img">
         </a>
       </div>
-      <div>
-  Preview
+        <div class="tag grid" id="tag">
+          <p>Preview</p>
+        </div>
 
-  Gabrielle Essence Eau De Parfum
+        <div class="title grid" id="title">
+          <h1>Essence Eau De Parfum</h1>
+            <div class="des grid" id="des">
+            <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+            Perfumer-Creator for the House of CHANEL.</p>
+            </div> 
+        </div>
 
-  A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-  Perfumer-Creator for the House of CHANEL.
+        <div class="pricing grid" id="pricing">
+          <h1>$149.99<br>$169.99</h1>
+        </div>
 
-  $149.99
-  $169.99
-      </div>
-
-  Add to Cart
+        <div class="button grid" id="button">
+        Add to Cart
+        </div>
     </div>
   </main>
 </body>
