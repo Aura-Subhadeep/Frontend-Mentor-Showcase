@@ -26,20 +26,6 @@
       border-top-left-radius: 0.7rem;
     }
 
-
-    p{
-      color: hsl(228, 12%, 48%);
-      font-size: 14px;
-      font-family: 'Montserrat', sans-serif;
-    }
-
-    h1{
-      color: hsl(212, 21%, 14%);
-      font-family: 'Fraunces', serif;
-      font-weight: 700;
-      margin: 0;
-    }
-
     .box{
       display: grid;
       background-color: hsl(0, 0%, 100%);
@@ -55,13 +41,41 @@
     }
 
     #tag{
+      color: hsl(228, 12%, 48%);
+      font-size: 14px;
+      font-family: 'Montserrat', sans-serif;
       text-transform: uppercase;
-      letter-spacing: 2px;
+      letter-spacing: 3px;
     }
 
     #title{
-      margin: 0;
-      padding: 0;
+      color: hsl(212, 21%, 14%);
+      font-family: 'Fraunces', serif;
+      font-weight: 700;
+    }
+    #des{
+      color: hsl(228, 12%, 48%);
+      font-size: 14px;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+
+    .pricing{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    #price1{
+      color: hsl(158, 36%, 37%);
+      font-family: 'Fraunces', serif;
+      font-weight: 700;
+    }
+
+    #price2{
+      color: hsl(228, 12%, 48%);
+      font-size: 14px;
+      font-family: 'Montserrat', sans-serif;
+      align-content: center;
     }
 
   </style>
@@ -74,7 +88,7 @@
           <img src="images/image-product-mobile.jpg" id="img">
       </div>
 
-      <div class="container2 box" id="container2">
+      <div class="container2 " id="container2">
         
         <div class="tag" id="tag"><p>Perfume</p>
         </div>
@@ -84,6 +98,11 @@
       
         <div class="des" id="des"><p>A floral, solar and voluptuous interpretation composed by Olivier Polge, 
           Perfumer-Creator for the House of CHANEL.</p>
+        </div>
+
+        <div class="pricing box" id="pricing">
+          <div class="box" id="price1"><h1>$149.99</h1></div>
+          <div class="box" id="price2"><p>$169.99</p></div>
         </div>
         
       </div>
