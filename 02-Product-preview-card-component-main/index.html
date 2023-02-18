@@ -13,14 +13,16 @@
 
     body{
       background-color: hsl(30, 38%, 92%);
-      margin: 0;
-      padding: 1rem;
+      margin: 1rem;
     }
 
     img{
       max-width: 100%;
       height: auto;
+      border-top-right-radius: 0.7rem;
+      border-top-left-radius: 0.7rem;
     }
+
 
     p{
       color: hsl(228, 12%, 48%);
@@ -31,47 +33,43 @@
       color: hsl(212, 21%, 14%);
     }
 
-    .grid{
+    .box{
       display: grid;
       background-color: hsl(0, 0%, 100%);
     }
-    .main{
-      border-radius: 1rem;
+
+    .container{
+      border-radius: 0.7rem;
     }
+    .container2{
+      margin: 1rem;
+    }
+
 
 
   </style>
 </head>
 <body>
   <main class="main">
-    <div class="container grid" id="container">
+    <div class="container box" id="container">
+
       <div>
-        <a href="/">
           <img src="images/image-product-mobile.jpg" id="img">
-        </a>
       </div>
 
-        <div class="tag grid" id="tag">
-          <p>Preview</p>
+      <div class="container2 box" id="container2">
+
+        <div class="tag box" id="tag"><p>Preview</p>
         </div>
 
-        <div class="title grid" id="title">
-          <h1>Essence Eau De Parfum</h1>
+        <div class="title box" id="title"><h1>Essence Eau De Parfum</h1>
         </div>
 
-        <div class="des grid" id="des">
-          <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+        <div class="des box" id="des"><p>A floral, solar and voluptuous interpretation composed by Olivier Polge, 
           Perfumer-Creator for the House of CHANEL.</p>
-          </div> 
-
-        <div class="pricing grid" id="pricing">
-          <div class="grid" id="price">$149.99</div>
-          <div class="grid" id="price">$169.99</div>
         </div>
 
-        <div class="button grid" id="button">
-        Add to Cart
-        </div>
+      </div>
 
     </div>
   </main>
