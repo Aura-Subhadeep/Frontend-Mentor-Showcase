@@ -5,6 +5,11 @@ background-color: hsl(212, 45%, 89%);
 padding: 15px;
 }
 
+img{
+    max-width: 100%;
+    height: auto;
+}
+
 h2{
 font-family: 'Outfit', sans-serif;
 font-weight: 700;
@@ -27,7 +32,6 @@ padding: 1rem;
 }
 
 #image{
-width: 310px;
 border-radius: 1rem;
 
 }
