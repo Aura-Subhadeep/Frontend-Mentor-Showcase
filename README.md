@@ -1,2 +1,1 @@
-# Project_collection
- 
+Collection of components 
