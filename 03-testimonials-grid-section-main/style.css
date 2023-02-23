@@ -1,1 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    display: grid;
+    border-radius: 0.7rem;
+}
+
+#main {
+    display: grid;
+    background-color: hsl(210, 46%, 95%);
+    grid-auto-rows: 200px;
+    padding: 3rem 1.3rem 1.3rem 1.3rem;
+    gap: 1.5rem;
+}
+
+#box1 {
+    color: white;
+    background-color: hsl(263, 55%, 52%);
+}
+#box2 {
+    color: white;
+    background-color: hsl(217, 19%, 35%);
+}
+#box3 {
+    color: white;
+    background-color: hsl(0, 0%, 100%);
+}
+#box4 {
+    color: white;
+    background-color: hsl(219, 29%, 14%);
+}
+#box5 {
+    color: white;
+    background-color: hsl(0, 0%, 100%);
+}
