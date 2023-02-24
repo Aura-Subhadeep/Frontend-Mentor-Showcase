@@ -32,6 +32,12 @@ img {
     padding: 2.1rem;
 }
 
+#box2 {
+    color: white;
+    background-color: hsl(217, 19%, 35%);
+    padding: 2.1rem;
+}
+
 #title {
     font-size: 1.3rem;
     font-weight: 600;
@@ -46,5 +52,6 @@ img {
 
 #user {
     display: flex;
-    justify-content: left;
+    align-items: center;
+    font-size: 13px;
 }
