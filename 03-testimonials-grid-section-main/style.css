@@ -10,6 +10,11 @@ p {
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
+img {
+    height: 30px;
+    border-radius: 1rem;
+}
+
 .box {
     display: grid;
     border-radius: 0.7rem;
@@ -24,14 +29,22 @@ p {
 #box1 {
     color: white;
     background-color: hsl(263, 55%, 52%);
-    padding: 2rem;
+    padding: 2.1rem;
 }
 
 #title {
     font-size: 1.3rem;
+    font-weight: 600;
     color: hsl(0, 0%, 100%);
 }
 
 #desc {
-    color: hsl(0, 0%, 81%);
+    font-size: 13px;
+    font-weight: 500;
+    color: hsl(210, 46%, 95%);
+}
+
+#user {
+    display: flex;
+    justify-content: left;
 }
