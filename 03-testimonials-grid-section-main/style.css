@@ -38,16 +38,35 @@ img {
     padding: 2.1rem;
 }
 
+#box3 {
+    color: hsl(217, 19%, 35%);
+    background-color: hsl(0, 0%, 100%);
+    padding: 2.1rem;
+}
+
 #title {
     font-size: 1.3rem;
     font-weight: 600;
     color: hsl(0, 0%, 100%);
 }
 
+#title2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: hsl(217, 19%, 35%);
+}
+
 #desc {
     font-size: 13px;
     font-weight: 500;
     color: hsl(0, 0%, 100%);
+    opacity: 70%;
+}
+
+#desc2 {
+    font-size: 13px;
+    font-weight: 500;
+    color: hsl(217, 19%, 35%);
     opacity: 70%;
 }
 
