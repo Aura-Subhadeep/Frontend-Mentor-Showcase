@@ -55,3 +55,8 @@ img {
     align-items: center;
     font-size: 13px;
 }
+
+.story {
+    background-color: aqua;
+    border-radius: 1rem;
+}
