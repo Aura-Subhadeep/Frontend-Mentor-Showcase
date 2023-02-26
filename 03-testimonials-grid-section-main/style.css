@@ -22,13 +22,13 @@ img {
 
 #main {
     display: grid;
-    padding: 3rem 1.3rem 1.3rem 1.3rem;
+    padding: 3rem 1.5rem 3rem 1.5rem;
     gap: 1.5rem;
 }
 
 #box1 {
     color: white;
-    background-color: hsl(263, 55%, 52%);
+    background-color: hwb(263 25% 22%);
     padding: 2.1rem;
 }
 
@@ -47,7 +47,8 @@ img {
 #desc {
     font-size: 13px;
     font-weight: 500;
-    color: hsl(210, 46%, 95%);
+    color: hsl(0, 0%, 100%);
+    opacity: 70%;
 }
 
 #user {
@@ -57,6 +58,10 @@ img {
 }
 
 .story {
-    background-color: aqua;
+    border: 3px solid hsl(0, 0%, 50%);
     border-radius: 1rem;
+}
+
+.text {
+    padding-left: 1rem;
 }
