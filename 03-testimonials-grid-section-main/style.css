@@ -50,6 +50,12 @@ img {
     padding: 2.1rem;
 }
 
+#box4 {
+    color: hsl(0, 0%, 100%);
+    background-color: hsla(164, 55%, 19%, 0.945);
+    padding: 2.1rem;
+}
+
 #title {
     font-size: 1.3rem;
     font-weight: 600;
