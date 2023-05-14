@@ -11,3 +11,7 @@
 body{
     font-family: 'Inter', sans-serif;
 }
+
+.bg-white-btn {
+    background-color: #ffff;
+}
