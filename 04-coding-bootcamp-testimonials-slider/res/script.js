@@ -38,8 +38,16 @@ function showPerson() {
 
 nextBtn.addEventListener('click', () => {
     currentItem++;
-    if (currentItem > review.length -1) {
+    if (currentItem > reviews.length -1) {
         currentItem = 0;
+    }
+    showPerson();
+})
+
+prevBtn.addEventListener('click', () => {
+    currentItem--;
+    if (currentItem < 0) {
+        currentItem = reviews.length
     }
     showPerson();
 })
