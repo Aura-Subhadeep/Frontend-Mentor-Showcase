@@ -16,8 +16,16 @@ body{
     background-color: #ffff;
 }
 
+.w-32r {
+    width: 32rem;
+}
+
 .text-32px {
     font-size: 32px;
+}
+
+.text-16px {
+    font-size: 16px;
 }
 
 .text-dark-blue {
