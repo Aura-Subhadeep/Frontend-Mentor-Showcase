@@ -39,3 +39,7 @@ body{
 .weight-500 {
     font-weight: 500;
 }
+
+.w-custom-width {
+    width: 32rem;
+}
